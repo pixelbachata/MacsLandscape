@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# Ignore large image files to keep repository small
-/src/assets/iStock-875190458.jpg
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
