@@ -9,8 +9,8 @@
 
 <script setup>
 import img1 from '../assets/view1.jpeg'
-import img2 from '../assets/view2.jpg'
-import img3 from '../assets/view3.jpg'
+import img2 from '../assets/view2.JPG'
+import img3 from '../assets/view3.JPG'
 
 const images = [img1, img2, img3]
 </script>
