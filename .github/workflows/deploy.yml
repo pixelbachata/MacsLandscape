@@ -4,6 +4,11 @@ on:
   push:
     branches: [main] # or your default branch
 
+    # ✨ NEW SECTION TO ADD ✨
+# This grants the GITHUB_TOKEN the permissions it needs to create the gh-pages branch.
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
